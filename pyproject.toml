@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "statistics data generator"
+version = "0.1.0"
+description = "generate random data with specified statistics property"
+authors = ["J-Yaghoubi <algo3xp3rt@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+fastapi = "^0.89.1"
+pandas = "^1.5.3"
+scipy = "^1.10.0"
+uvicorn = "^0.20.0"
+openpyxl = "^3.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
